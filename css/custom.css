@@ -198,6 +198,77 @@ figure.highlight .gutter {
   background: #30363d !important;
 }
 
+/* APlayer 深色主题适配 */
+.aplayer {
+  background: #21262d !important;
+  border: 1px solid #30363d !important;
+  font-family: "LXGW WenKai", sans-serif !important;
+}
+
+.aplayer .aplayer-info {
+  border-bottom: 1px solid #30363d !important;
+}
+
+.aplayer .aplayer-music .aplayer-title {
+  color: #e6edf3 !important;
+}
+
+.aplayer .aplayer-music .aplayer-author {
+  color: #8b949e !important;
+}
+
+.aplayer .aplayer-list {
+  background: #161b22 !important;
+  border-top: 1px solid #30363d !important;
+}
+
+.aplayer .aplayer-list li {
+  color: #c9d1d9 !important;
+  border-top: 1px solid #30363d !important;
+}
+
+.aplayer .aplayer-list li:hover,
+.aplayer .aplayer-list li.aplayer-list-light {
+  background: #30363d !important;
+}
+
+.aplayer .aplayer-list li .aplayer-list-cur {
+  background: #58a6ff !important;
+}
+
+.aplayer .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+  background: #30363d !important;
+}
+
+.aplayer .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+  background: #58a6ff !important;
+}
+
+.aplayer .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-thumb {
+  background: #58a6ff !important;
+}
+
+.aplayer .aplayer-time {
+  color: #8b949e !important;
+}
+
+.aplayer .aplayer-volume-wrap .aplayer-volume-bar-wrap {
+  background: #21262d !important;
+  border: 1px solid #30363d !important;
+}
+
+.aplayer .aplayer-volume-wrap .aplayer-volume-bar-wrap .aplayer-volume-bar {
+  background: #30363d !important;
+}
+
+.aplayer .aplayer-volume-wrap .aplayer-volume-bar-wrap .aplayer-volume-bar .aplayer-volume {
+  background: #58a6ff !important;
+}
+
+.aplayer .aplayer-lrc {
+  display: none !important;
+}
+
 /* 音乐按钮更明显 */
 #music-toggle {
   background: #1f6feb !important;
