@@ -1,0 +1,218 @@
+body {
+  font-family: "LXGW WenKai", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+
+/* ==================== 夜间模式默认 + 深灰卡片 ==================== */
+
+/* 页面背景：深蓝夜空 */
+#web_bg {
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%) !important;
+  background-attachment: fixed !important;
+}
+
+/* 文章卡片：深灰色 */
+#recent-posts > .recent-post-item {
+  background: #21262d !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid #5e5e5e !important;
+  transition: all 0.3s ease !important;
+}
+
+#recent-posts > .recent-post-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6) !important;
+  border-color: #58a6ff !important;
+}
+
+/* 侧边栏卡片：深灰色 */
+.card-widget {
+  background: #21262d !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid #30363d !important;
+  backdrop-filter: blur(10px);
+}
+
+/* 导航栏：深灰毛玻璃 */
+#page-header.nav-fixed #nav {
+  background: rgba(22, 27, 34, 0.9) !important;
+  backdrop-filter: blur(12px) !important;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4) !important;
+  border-bottom: 1px solid #30363d !important;
+}
+
+/* 文章页内图片 */
+#article-container img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* 代码块背景修复 */
+figure.highlight {
+  background: #161b22 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 确保代码块内文字颜色正常 */
+figure.highlight .code {
+  background: #161b22 !important;
+  color: #c9d1d9 !important;
+}
+
+/* 行号颜色 */
+figure.highlight .gutter {
+  background: #0d1117 !important;
+  color: #8b949e !important;
+}
+/* 选中文字 */
+::selection {
+  background: rgba(88, 166, 255, 0.3);
+  color: #e6edf3;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161b22;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #484f58;
+}
+
+/* 分页按钮 */
+#pagination .page-number,
+#pagination .space,
+#pagination .extend {
+  background: #21262d !important;
+  color: #c9d1d9 !important;
+  border-radius: 8px !important;
+  border: 1px solid #30363d !important;
+  transition: all 0.3s ease;
+}
+
+#pagination .page-number:hover,
+#pagination .extend:hover {
+  transform: scale(1.1);
+  background: #58a6ff !important;
+  color: #fff !important;
+  border-color: #58a6ff !important;
+}
+
+/* 标签云 */
+#aside-content .card-tag-cloud a {
+  background: #21262d !important;
+  color: #8b949e !important;
+  border-radius: 8px !important;
+  padding: 2px 8px !important;
+  margin: 4px !important;
+  border: 1px solid #30363d !important;
+  transition: all 0.3s ease;
+}
+
+#aside-content .card-tag-cloud a:hover {
+  transform: scale(1.15);
+  background: #58a6ff !important;
+  color: #fff !important;
+  border-color: #58a6ff !important;
+}
+
+/* 文字颜色适配 */
+#recent-posts > .recent-post-item .article-title {
+  color: #e6edf3 !important;
+}
+
+#recent-posts > .recent-post-item .article-meta {
+  color: #8b949e !important;
+}
+
+#recent-posts > .recent-post-item .content {
+  color: #c9d1d9 !important;
+}
+
+.card-widget .item-headline {
+  color: #e6edf3 !important;
+}
+
+.card-widget .item-content {
+  color: #c9d1d9 !important;
+}
+
+/* 页脚 */
+#footer {
+  background: #161b22 !important;
+  color: #8b949e !important;
+  border-top: 1px solid #30363d !important;
+}
+
+/* 按钮 */
+#aside-content .card-info #card-info-btn {
+  background: #238636 !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+
+/* 移动端菜单 */
+#sidebar-menus {
+  background: #161b22 !important;
+}
+
+#sidebar-menus .menus_items .site-page {
+  color: #c9d1d9 !important;
+}
+
+/* 搜索框 */
+.search-dialog {
+  background: #21262d !important;
+  border: 1px solid #30363d !important;
+}
+
+.search-dialog .search-nav {
+  color: #e6edf3 !important;
+}
+
+.search-dialog .local-search-box input {
+  background: #161b22 !important;
+  color: #e6edf3 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 8px !important;
+}
+
+.search-dialog .local-search__hit-item {
+  color: #c9d1d9 !important;
+}
+
+.search-dialog .local-search__hit-item:hover {
+  background: #30363d !important;
+}
+
+/* 音乐按钮更明显 */
+#music-toggle {
+  background: #1f6feb !important;
+  border: 2px solid #58a6ff !important;
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.4) !important;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(88, 166, 255, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(88, 166, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(88, 166, 255, 0); }
+}
+
+#music-toggle:hover {
+  transform: scale(1.15) !important;
+  background: #58a6ff !important;
+}
